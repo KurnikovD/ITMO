@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "AndroidTestSuite">
+    <test name="FacebookTest">
+        <classes>
+            <class name="test.Registration"/>
+            <class name="test.Login"/>
+            <class name="test.Post"/>
+            <class name="test.AddFriend"/>
+            <class name="test.Group"/>
+            <class name="test.Profile"/>
+            <class name="test.LogOut"/>
+            <class name="test.IconInDesctop"/>
+        </classes>
+    </test>
+</suite>
